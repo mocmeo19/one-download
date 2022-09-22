@@ -9,7 +9,12 @@
     "test": "jest --coverage",
     "prepublish": "npm run build"
   },
-  "keywords": [],
+  "files": ["dist/**/*"],
+  "keywords": [
+    "download",
+    "limit download",
+    "progress download"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
